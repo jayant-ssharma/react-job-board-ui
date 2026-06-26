@@ -1,16 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💼 React Job Board UI
 
-Currently, two official plugins are available:
+🔗 [Live Demo](https://react-job-board-ui-teal.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## What It Does
+A job listing UI showcasing openings from top tech companies like Google, Apple,
+OpenAI, Anthropic and more — with job type, level, pay rate and location at a glance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Desktop](./public/screenshots/desktop.png)
+![Mobile](./public/screenshots/mobile.png)
+
+---
+
+## Features
+- 🏢 Job cards with company logos, titles and posted time
+- 🏷️ Employment type tags (Full Time / Part Time)
+- 📊 Experience level badges (Junior / Senior)
+- 💰 Hourly pay rate display
+- 📍 Location info per listing
+- 🔖 Bookmark icon on each card
+- ⚡ Apply button per listing
+
+---
+
+## Tech Used
+- React · CSS
+
+---
+
+## What I Learned
+- Building reusable React components
+- Passing data via props
+- Structuring a multi-card UI layout in React
+- Component composition for real-world UI patterns
+
+---
+
+## How to Run Locally
+```bash
+git clone https://github.com/jayant-ssharma/react-job-board-ui.git
+cd react-job-board-ui
+npm install
+npm run dev
+```
