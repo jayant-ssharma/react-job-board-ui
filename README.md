@@ -16,10 +16,6 @@ OpenAI, Anthropic and more — with job type, level, pay rate and location at a 
 Desktop:
 (./public/screenshots/desktop.png)
 ---
-Mobile:
-(./public/screenshots/mobile.png)
-
----
 
 ## Features
 - 🏢 Job cards with company logos, titles and posted time
