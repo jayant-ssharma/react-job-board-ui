@@ -14,6 +14,7 @@ OpenAI, Anthropic and more — with job type, level, pay rate and location at a 
 ## Preview
 
 ![Desktop](./public/screenshots/desktop.png)
+</br> 
 ![Mobile](./public/screenshots/mobile.png)
 
 ---
